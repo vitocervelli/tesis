@@ -1,0 +1,42 @@
+.login{
+	 background-image: url("/images/wall.gif");
+	 nav{
+	 	background-color:#fAFAFAFA;
+	 	.navbar-header{
+		 	padding-top: 20px;
+			padding-bottom: 20px;
+			
+		 	float: none;
+		 	
+		 	img{
+		 		width:100%;
+		 		height:100%;
+		 	}
+		 	h1{
+		 		font-size:26px;
+		 		text-aling:center;
+		 	}
+		 	.logo-left{
+		 		img{
+		 			max-width:35%;
+		 		}
+		 	}
+		 	.logo-right{
+		 		text-align: right;
+		 		img{
+		 			max-width:24%;
+		 		}
+		 	}
+		}
+	}
+	.panel{
+		.panel-heading{
+			background-image: url("/images/Banner1.png");
+    		background-repeat: no-repeat;
+    		h1{
+    			color: #636b6f;
+    		}
+		}
+	}
+	 
+}

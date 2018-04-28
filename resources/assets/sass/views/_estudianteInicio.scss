@@ -1,0 +1,32 @@
+.estudiante{
+  background-image: url("/images/wall.gif");
+	.welcome{
+      text-align: center;
+      color: #636b6f;
+      padding-bottom: 60px;
+      padding-top: 60px;
+      p{
+        margin-bottom: 6px;
+      }
+
+	}
+    .select_area{
+      .button{
+        padding: 0;
+        button{
+          width: 100%;
+          border-radius:0;
+          height: 80px;
+        }
+      }
+    }
+    table{
+      text-align: center;      
+      thead{
+        th{
+            border: none;
+            text-align: center;
+        }
+      }
+    }
+}

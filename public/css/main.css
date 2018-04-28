@@ -1,0 +1,355 @@
+/*--------------------------------------------------------------
+# Variables responsive
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Colores
+--------------------------------------------------------------*/
+
+.login {
+  background-image: url("/images/wall.gif");
+}
+
+.login nav {
+  background-color: #fAFAFAFA;
+}
+
+.login nav .navbar-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: none;
+}
+
+.login nav .navbar-header img {
+  width: 100%;
+  height: 100%;
+}
+
+.login nav .navbar-header h1 {
+  font-size: 26px;
+  text-aling: center;
+}
+
+.login nav .navbar-header .logo-left img {
+  max-width: 35%;
+}
+
+.login nav .navbar-header .logo-right {
+  text-align: right;
+}
+
+.login nav .navbar-header .logo-right img {
+  max-width: 24%;
+}
+
+.login .panel .panel-heading {
+  background-image: url("/images/Banner1.png");
+  background-repeat: no-repeat;
+}
+
+.login .panel .panel-heading h1 {
+  color: #636b6f;
+}
+
+nav.layout {
+  background-color: #5393ca;
+}
+
+nav.layout .navbar {
+  padding-top: 10px;
+  padding-bottom: 18px;
+  float: none;
+}
+
+nav.layout .navbar img {
+  width: 100%;
+  height: 100%;
+}
+
+nav.layout .navbar h1 {
+  font-size: 26px;
+  text-aling: center;
+}
+
+nav.layout .navbar .logo-left img {
+  max-width: 14%;
+}
+
+nav.layout .navbar .logout {
+  text-align: right;
+}
+
+nav.layout .navbar .logout a {
+  color: white;
+}
+
+table thead th {
+  border: none;
+}
+
+.estudiante {
+  background-image: url("/images/wall.gif");
+}
+
+.estudiante .welcome {
+  text-align: center;
+  color: #636b6f;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.estudiante .welcome p {
+  margin-bottom: 6px;
+}
+
+.estudiante .select_area .button {
+  padding: 0;
+}
+
+.estudiante .select_area .button button {
+  width: 100%;
+  border-radius: 0;
+  height: 80px;
+}
+
+.estudiante table {
+  text-align: center;
+}
+
+.estudiante table thead th {
+  border: none;
+  text-align: center;
+}
+
+.tutor {
+  background-image: url("/images/wall.gif");
+}
+
+.tutor .welcome {
+  text-align: center;
+  color: #636b6f;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.tutor .welcome p {
+  margin-bottom: 6px;
+}
+
+.tutor .select_area .button {
+  padding: 0;
+}
+
+.tutor .select_area .button button {
+  width: 100%;
+  border-radius: 0;
+  height: 80px;
+}
+
+.tutor table {
+  text-align: center;
+}
+
+.secretaria {
+  background-image: url("/images/wall.gif");
+}
+
+.secretaria .welcome {
+  text-align: center;
+  color: #636b6f;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.secretaria .welcome p {
+  margin-bottom: 6px;
+}
+
+.secretaria .select_area .button {
+  padding: 0;
+}
+
+.secretaria .select_area .button button {
+  width: 100%;
+  border-radius: 0;
+  height: 80px;
+}
+
+.secretaria table {
+  text-align: center;
+}
+
+.tema-ver,
+.tema-responder,
+.tema-enviar,
+.tema-respondido,
+.lista-estudiantes,
+.solicitud,
+.solicitud-enviada,
+.enviartutor,
+.responder-solicitud,
+.tema-enviado,
+.respuesta-tutor {
+  font-family: 'Raleway';
+}
+
+.tema-ver h1,
+.tema-responder h1,
+.tema-enviar h1,
+.tema-respondido h1,
+.lista-estudiantes h1,
+.solicitud h1,
+.solicitud-enviada h1,
+.enviartutor h1,
+.responder-solicitud h1,
+.tema-enviado h1,
+.respuesta-tutor h1 {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 18px;
+  color: #5393ca;
+}
+
+.tema-ver h3,
+.tema-ver label,
+.tema-responder h3,
+.tema-responder label,
+.tema-enviar h3,
+.tema-enviar label,
+.tema-respondido h3,
+.tema-respondido label,
+.lista-estudiantes h3,
+.lista-estudiantes label,
+.solicitud h3,
+.solicitud label,
+.solicitud-enviada h3,
+.solicitud-enviada label,
+.enviartutor h3,
+.enviartutor label,
+.responder-solicitud h3,
+.responder-solicitud label,
+.tema-enviado h3,
+.tema-enviado label,
+.respuesta-tutor h3,
+.respuesta-tutor label {
+  font-size: 17px;
+  font-weight: bold;
+  color: #636b6f;
+  padding: 5px 0px;
+}
+
+.tema-ver h3 span,
+.tema-ver label span,
+.tema-responder h3 span,
+.tema-responder label span,
+.tema-enviar h3 span,
+.tema-enviar label span,
+.tema-respondido h3 span,
+.tema-respondido label span,
+.lista-estudiantes h3 span,
+.lista-estudiantes label span,
+.solicitud h3 span,
+.solicitud label span,
+.solicitud-enviada h3 span,
+.solicitud-enviada label span,
+.enviartutor h3 span,
+.enviartutor label span,
+.responder-solicitud h3 span,
+.responder-solicitud label span,
+.tema-enviado h3 span,
+.tema-enviado label span,
+.respuesta-tutor h3 span,
+.respuesta-tutor label span {
+  font-size: 17px;
+  font-weight: 100;
+  color: #636b6f;
+}
+
+.tema-ver .error,
+.tema-responder .error,
+.tema-enviar .error,
+.tema-respondido .error,
+.lista-estudiantes .error,
+.solicitud .error,
+.solicitud-enviada .error,
+.enviartutor .error,
+.responder-solicitud .error,
+.tema-enviado .error,
+.respuesta-tutor .error {
+  font-size: 16px;
+  color: #F4938C;
+}
+
+.tema-ver input:focus,
+.tema-ver select:focus,
+.tema-ver textarea:focus,
+.tema-responder input:focus,
+.tema-responder select:focus,
+.tema-responder textarea:focus,
+.tema-enviar input:focus,
+.tema-enviar select:focus,
+.tema-enviar textarea:focus,
+.tema-respondido input:focus,
+.tema-respondido select:focus,
+.tema-respondido textarea:focus,
+.lista-estudiantes input:focus,
+.lista-estudiantes select:focus,
+.lista-estudiantes textarea:focus,
+.solicitud input:focus,
+.solicitud select:focus,
+.solicitud textarea:focus,
+.solicitud-enviada input:focus,
+.solicitud-enviada select:focus,
+.solicitud-enviada textarea:focus,
+.enviartutor input:focus,
+.enviartutor select:focus,
+.enviartutor textarea:focus,
+.responder-solicitud input:focus,
+.responder-solicitud select:focus,
+.responder-solicitud textarea:focus,
+.tema-enviado input:focus,
+.tema-enviado select:focus,
+.tema-enviado textarea:focus,
+.respuesta-tutor input:focus,
+.respuesta-tutor select:focus,
+.respuesta-tutor textarea:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.tema-ver table thead th,
+.tema-responder table thead th,
+.tema-enviar table thead th,
+.tema-respondido table thead th,
+.lista-estudiantes table thead th,
+.solicitud table thead th,
+.solicitud-enviada table thead th,
+.enviartutor table thead th,
+.responder-solicitud table thead th,
+.tema-enviado table thead th,
+.respuesta-tutor table thead th {
+  border: none;
+  border-bottom: none !important;
+}
+
+.active .arrow {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  opacity: 0.66;
+}
+
+.active .arrow.asc {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid blue;
+}
+
+.active .arrow.dsc {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid blue;
+}
+
