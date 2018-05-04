@@ -17,59 +17,59 @@
             <div class="row">
                 <div class="col-sm-4">
                     <label for="usr">jurado principal 1</label>
-                    <input required  type="text" class="form-control" name="principal_1">
+                    <input required  type="text" class="form-control" name="principal_1" value=" {{$s_jurado->sugerencia_jurado_principal_1}} ">
                 </div>
                 <div class="col-sm-4">
                     <label for="usr">Institucion jurado principal 1</label>
-                    <input required  type="text" class="form-control" name="institucion_principal_1">
+                    <input required  type="text" class="form-control" name="institucion_principal_1" value=" {{$s_jurado->institucion_jurado_principal_1}}">
                 </div>
                 <div class="col-sm-4">
                     <label for="usr">Correo jurado principal 1</label>
-                    <input required  type="email" class="form-control" name="correo_principal_1">
+                    <input required  type="email" class="form-control" name="correo_principal_1"  value=" {{$s_jurado->correo_jurado_principal_1}} ">
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-sm-4">
                     <label for="usr">Sugerencia jurado principal 2</label>
-                    <input required  type="text" class="form-control" name="principal_2">
+                    <input required  type="text" class="form-control" name="principal_2" value=" {{$s_jurado->sugerencia_jurado_principal_2}} ">
                 </div>
                 <div class="col-sm-4">
                     <label for="usr">Institucion jurado principal 2</label>
-                    <input required  type="text" class="form-control" name="institucion_principal_2">
+                    <input required  type="text" class="form-control" name="institucion_principal_2" value=" {{$s_jurado->institucion_jurado_principal_2}}">
                 </div>
                 <div class="col-sm-4">
                     <label for="usr">Correo jurado principal 2</label>
-                    <input required  type="email" class="form-control" name="correo_principal_2">
+                    <input required  type="email" class="form-control" name="correo_principal_2" value=" {{$s_jurado->correo_jurado_principal_2}} ">
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-sm-4">
                     <label for="usr">Sugerencia jurado suplente 1</label>
-                    <input required type="text" class="form-control" name="suplente_1">
+                    <input required type="text" class="form-control" name="suplente_1" value=" {{$s_jurado->sugerencia_jurado_suplente_1}} ">
                 </div>
                 <div class="col-sm-4">
                     <label for="usr">Institucion jurado suplente 1</label>
-                    <input required type="text" class="form-control" name="institucion_suplente_1">
+                    <input required type="text" class="form-control" name="institucion_suplente_1" value=" {{$s_jurado->institucion_jurado_suplente_1}}">
                 </div>
                 <div class="col-sm-4">
                     <label for="usr">Correo jurado suplente 1</label>
-                    <input required type="email" class="form-control" name="correo_suplente_1">
+                    <input required type="email" class="form-control" name="correo_suplente_1" value=" {{$s_jurado->correo_jurado_suplente_1}} ">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <label for="usr">Sugerencia jurado suplente 2</label>
-                    <input required  type="text" class="form-control" name="suplente_2">
+                    <input required  type="text" class="form-control" name="suplente_2" value=" {{$s_jurado->sugerencia_jurado_suplente_2}} ">
                 </div>
                 <div class="col-sm-4">
                     <label for="usr">Institucion jurado suplente 2</label>
-                    <input  required type="text" class="form-control" name="institucion_suplente_2">
+                    <input  required type="text" class="form-control" name="institucion_suplente_2" value=" {{$s_jurado->institucion_jurado_suplente_2}}">
                 </div>
                 <div class="col-sm-4">
                     <label for="usr">Correo jurado suplente 2</label>
-                    <input  required type="email" class="form-control" name="correo_suplente_2">
+                    <input  required type="email" class="form-control" name="correo_suplente_2" value=" {{$s_jurado->correo_jurado_suplente_2}} ">
                 </div>
 
             </div>

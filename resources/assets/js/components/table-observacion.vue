@@ -38,7 +38,7 @@
           url2: './ver_estudiante',
           link: 'realizar observación',
           url: './realizar_estudiante',
-          mensaje: 'Hasta el momento no tienes ningún Estudiante asignado',
+          mensaje: 'Hasta el momento no tiene ninguna observacion',
       	  columns: ['nombre'],
       	  titulos: ['Estudiante','Ver observación','Realizar observación'],
           sortKey: ''

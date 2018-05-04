@@ -147,7 +147,7 @@ class SolicitarJurado extends Controller
         $proyecto = proyecto::find($s_jurado->proyecto_id);
         $estudiante = estudiante::find($proyecto->estudiante_id);
 
-        return view('jurado_registro', compact('jurado', 'id_solicitud', 'tutor', 'estudiante', 'proyecto'));
+        return view('jurado_registro', compact('jurado', 'id_solicitud', 'tutor', 'estudiante', 'proyecto','s_jurado'));
     }
         public function guardar_jurado(Request $request)
     {

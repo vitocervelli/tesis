@@ -88,7 +88,7 @@
             <h4 class="error">El estudiante  {{$estudiante->nombre}} {{$estudiante->apellido}} a negado mas de {{$count}} veces los temas de tesis por tal motivo no se le podra enviar mas
             </h4>
         @endif
-        <a href="{{URL::previous()}}"><button class="btn btn-primary mb-2">Regresar</button></a>
+        <a href="/"><button class="btn btn-primary mb-2">Regresar</button></a>
     </section>
 @endsection
 

@@ -6,7 +6,7 @@
     @if(!is_null($tutor))
     <input type="hidden" id="idTutor" name="idTutor" value="{{$tutor->id}}">
     <h1>Reporte del tutor {{$tutor->nombre}} {{$tutor->apellido}}</h1>
-       <table-reporte-tutor></table-reporte-tutor>
+       {{--<table-reporte-tutor></table-reporte-tutor>--}}
       <table class="table table-hover">
            <thead>
            <tr>
